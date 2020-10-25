@@ -1,0 +1,20 @@
+2020-10-25 05:24:32,592 DEBUG cd frappe-bench && /home/frappe/.local/bin/virtualenv -q env -p python3
+2020-10-25 05:25:44,357 LOG Getting app frappe
+2020-10-25 05:25:44,361 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-12 --depth 1 --origin upstream
+2020-10-25 05:30:44,854 LOG installing frappe
+2020-10-25 05:30:44,873 DEBUG frappe-bench/env/bin/pip install -q -U -e frappe-bench/apps/frappe 
+2020-10-25 05:56:29,397 INFO /home/frappe/.local/bin/bench set-mariadb-host mariadb
+2020-10-25 05:56:29,509 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2020-10-25 06:00:05,782 INFO /home/frappe/.local/bin/bench set-mariadb-host mariadb
+2020-10-25 06:00:05,793 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2020-10-25 06:01:24,145 INFO /home/frappe/.local/bin/bench set-redis-queue-host redis-queue:6379
+2020-10-25 06:01:24,152 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
